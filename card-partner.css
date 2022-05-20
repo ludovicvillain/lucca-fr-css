@@ -31,6 +31,16 @@
     opacity: 1;
 }
 
+.card-partner:hover .card-text-wrapper {
+    opacity: 1;
+}
+
+.card-text-wrapper {
+    text-align: center;
+    opacity: 0;
+    transition: .2s ease-in .3s;
+}
+
 .card-title {
     font-weight: 900;
     text-align: center;
@@ -40,14 +50,12 @@
 
 .card-text {
     font-weight: 400;
-    text-align: center;
 }
 
 .card-link {
     font-family: "Source Sans Pro", sans-serif;
     color: #6C7C9D;
-    font-weight: 900;
-    text-align: center; 
+    font-weight: 900; 
 }
 
 .card-overlay {
